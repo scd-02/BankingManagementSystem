@@ -13,7 +13,7 @@ public class DB {
 			
 			// establish the connection
 			String url = "jdbc:oracle:thin:@localhost:1521:xe";
-			conn = DriverManager.getConnection(url, "system", "oracle");
+			conn = DriverManager.getConnection(url, "system", "<password>");
 			System.out.println("Connection Established with oracle server");
 			
 			
